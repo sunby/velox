@@ -199,6 +199,8 @@ target_link_libraries(velox
   velox_parse_parser
   velox_parse_utils
   velox_hive_connector
+  velox_tpch_connector
+  velox_
   velox_duckdb_conversion
   velox_duckdb_functions
   velox_duckdb_allocator
