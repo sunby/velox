@@ -195,6 +195,9 @@ target_link_libraries(velox
   velox_vector
   velox_exec
   velox_exec_test_lib
+  velox_parse_expression
+  velox_parse_parser
+  velox_parse_utils
   velox_hive_connector
   velox_duckdb_conversion
   velox_duckdb_functions
