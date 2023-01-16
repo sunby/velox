@@ -196,5 +196,8 @@ target_link_libraries(velox
   velox_exec
   velox_exec_test_lib
   velox_hive_connector
+  velox_duckdb_conversion
+  velox_duckdb_functions
+  velox_duckdb_allocator
   velox_memory)
 bundle_static_library(velox velox_bundled)
